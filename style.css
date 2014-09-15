@@ -5,7 +5,7 @@
 
 h1 {
     font-size: xx-large;
-    color: cadetblue;
+    color: antiquewhite;
 }
 
 .rosaSkrift {
@@ -29,16 +29,10 @@ h1 {
 
 #content {
     background-color: lightcyan;
-
 }
 
 #header {
     background-color: lightseagreen;
-
-}
-
-#wrapper {
-
 }
 
 .fullWidth {

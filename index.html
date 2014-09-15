@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>Hello, world!</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
-<body>
+<body onload="setup()">
 
 <div id="wrapper" class="fullWidth">
     <div id="header" class="fullWidth">
@@ -24,7 +25,8 @@
     <div id="content" class="fullWidth">
         <img src="http://spikekido.files.wordpress.com/2010/08/fartingunicorn.jpg" alt="farting unicorn"/>
         <br/>
-        <button id="likeButton">Like!</button>
+        <button id="likeButton" onclick="increaseLike()">Like!</button>
+        Du har <span id="likeCounter"></span> likes!
 
 
         <p>
