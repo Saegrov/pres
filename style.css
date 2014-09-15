@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 h1 {
     font-size: xx-large;
@@ -7,4 +10,37 @@ h1 {
 
 .rosaSkrift {
     color: pink;
+}
+
+#menu {
+    background-color: lightblue;
+}
+
+#menu ul li {
+    display: inline;
+    border-right: 1px solid brown;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#menu ul li:first-child {
+    border-left: 1px solid brown;
+}
+
+#content {
+    background-color: lightcyan;
+
+}
+
+#header {
+    background-color: lightseagreen;
+
+}
+
+#wrapper {
+
+}
+
+.fullWidth {
+    width: 100%;
 }
