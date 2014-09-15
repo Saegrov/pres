@@ -48,3 +48,10 @@ h1 {
 a {
     color: deeppink;
 }
+
+#likeButton {
+    padding: 1em 3em 1em 3em;
+    background-color: cornflowerblue;
+    color:white;
+    font-size: large;
+}
