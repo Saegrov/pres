@@ -49,3 +49,8 @@ a {
     color:white;
     font-size: large;
 }
+
+#commentWrapper {
+    padding: 1em;
+    background-color: lightsalmon;
+}
