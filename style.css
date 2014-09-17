@@ -3,54 +3,80 @@
     padding: 0;
 }
 
-h1 {
-    font-size: xx-large;
-    color: antiquewhite;
+body {
+    font-family: Sans-Serif;
 }
 
-.rosaSkrift {
-    color: pink;
+h1 {
+    font-size: xx-large;  
+    color: white;
+}
+
+a {
+    color: #45b6ea;
 }
 
 #menu {
-    background-color: lightblue;
+    background-color: #feaeff;
+    padding: 1em;
 }
 
 #menu ul li {
     display: inline;
-    border-right: 1px solid brown;
+    border-right: 1px solid white;
     padding-right: 1em;
     padding-left: 1em;
 }
 
 #menu ul li:first-child {
-    border-left: 1px solid brown;
+    border-left: 1px solid white;
 }
 
 #content {
-    background-color: lightcyan;
+    background-color: white;
+    padding: 1em;
 }
 
 #header {
-    background-color: lightseagreen;
-}
-
-.fullWidth {
-    width: 100%;
-}
-
-a {
-    color: deeppink;
+    background-color: #45b6ea;
+    padding: 1em;
 }
 
 #likeButton {
     padding: 1em 3em 1em 3em;
-    background-color: cornflowerblue;
+    background-color: #45b6ea;
     color:white;
     font-size: large;
 }
 
+#commentButton {
+    height: 30px;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    background-color: #45b6ea;
+    color:white;
+    font-size: small;
+}
+
+#commentInput {
+    height: 25px;    
+}
+
 #commentWrapper {
     padding: 1em;
-    background-color: lightsalmon;
+    margin: 1em 0em 1em 1em;
+    background-color: #afffae;
+}
+
+#commentWrapper ul { 
+    list-style-type: none;
+}
+
+#commentWrapper ul li {
+    margin: 1em 0em 1em 0em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    background-color: #feaeff;
+}
+
+.fullWidth {
+    width: 100%;
 }
